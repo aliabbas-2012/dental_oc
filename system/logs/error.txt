@@ -43232,3 +43232,23 @@
 2014-11-19 4:16:57 - PHP Notice:  Undefined offset: 2 in /Applications/MAMP/htdocs/Dental/catalog/controller/module/boss_homefilter.php on line 97
 2014-11-19 4:16:57 - PHP Notice:  Undefined offset: 2 in /Applications/MAMP/htdocs/Dental/catalog/controller/module/boss_homefilter.php on line 97
 2014-11-19 4:16:57 - PHP Notice:  Undefined offset: 2 in /Applications/MAMP/htdocs/Dental/catalog/controller/module/boss_homefilter.php on line 97
+2014-12-07 14:12:28 - PHP Warning:  include_once(common/_quick_search.tpl): failed to open stream: No such file or directory in /var/www/html/brian/Dental/catalog/view/theme/bt_medicalhealth/template/common/header.tpl on line 90
+2014-12-07 14:12:28 - PHP Warning:  include_once(): Failed opening 'common/_quick_search.tpl' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/html/brian/Dental/catalog/view/theme/bt_medicalhealth/template/common/header.tpl on line 90
+2014-12-07 14:21:25 - PHP Notice:  Undefined index: category_id in /var/www/html/brian/Dental/catalog/view/theme/bt_medicalhealth/template/common/_custom_search_bar.tpl on line 8
+2014-12-07 14:21:25 - PHP Notice:  Undefined variable: category_id in /var/www/html/brian/Dental/catalog/view/theme/bt_medicalhealth/template/common/_custom_search_bar.tpl on line 8
+2014-12-07 14:21:25 - PHP Notice:  Undefined index: category_id in /var/www/html/brian/Dental/catalog/view/theme/bt_medicalhealth/template/common/_custom_search_bar.tpl on line 9
+2014-12-07 14:21:25 - PHP Notice:  Undefined index: name in /var/www/html/brian/Dental/catalog/view/theme/bt_medicalhealth/template/common/_custom_search_bar.tpl on line 9
+2014-12-07 14:21:25 - PHP Notice:  Undefined index: children in /var/www/html/brian/Dental/catalog/view/theme/bt_medicalhealth/template/common/_custom_search_bar.tpl on line 13
+2014-12-07 14:21:25 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/brian/Dental/catalog/view/theme/bt_medicalhealth/template/common/_custom_search_bar.tpl on line 13
+2014-12-07 14:22:42 - PHP Notice:  Undefined index: category_id in /var/www/html/brian/Dental/catalog/view/theme/bt_medicalhealth/template/common/_custom_search_bar.tpl on line 9
+2014-12-07 14:22:42 - PHP Notice:  Undefined variable: category_id in /var/www/html/brian/Dental/catalog/view/theme/bt_medicalhealth/template/common/_custom_search_bar.tpl on line 9
+2014-12-07 14:22:42 - PHP Notice:  Undefined index: category_id in /var/www/html/brian/Dental/catalog/view/theme/bt_medicalhealth/template/common/_custom_search_bar.tpl on line 10
+2014-12-07 14:22:42 - PHP Notice:  Undefined index: name in /var/www/html/brian/Dental/catalog/view/theme/bt_medicalhealth/template/common/_custom_search_bar.tpl on line 10
+2014-12-07 14:22:42 - PHP Notice:  Undefined index: children in /var/www/html/brian/Dental/catalog/view/theme/bt_medicalhealth/template/common/_custom_search_bar.tpl on line 14
+2014-12-07 14:22:42 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/brian/Dental/catalog/view/theme/bt_medicalhealth/template/common/_custom_search_bar.tpl on line 14
+2014-12-07 14:23:41 - PHP Notice:  Undefined index: category_id in /var/www/html/brian/Dental/catalog/view/theme/bt_medicalhealth/template/common/_custom_search_bar.tpl on line 14
+2014-12-07 14:23:41 - PHP Notice:  Undefined index: category_id in /var/www/html/brian/Dental/catalog/view/theme/bt_medicalhealth/template/common/_custom_search_bar.tpl on line 15
+2014-12-07 14:23:41 - PHP Notice:  Undefined index: name in /var/www/html/brian/Dental/catalog/view/theme/bt_medicalhealth/template/common/_custom_search_bar.tpl on line 15
+2014-12-07 14:23:41 - PHP Notice:  Undefined index: children in /var/www/html/brian/Dental/catalog/view/theme/bt_medicalhealth/template/common/_custom_search_bar.tpl on line 19
+2014-12-07 14:23:41 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/brian/Dental/catalog/view/theme/bt_medicalhealth/template/common/_custom_search_bar.tpl on line 19
+2014-12-07 14:32:36 - PHP Notice:  Undefined variable: button_search in /var/www/html/brian/Dental/catalog/view/theme/bt_medicalhealth/template/common/_custom_search_bar.tpl on line 54
