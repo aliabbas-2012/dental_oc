@@ -4,7 +4,9 @@
     <a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
     <?php } ?>
   </div>
-  <?php echo $column_left; ?><?php echo $column_right; ?>
+  <?php echo $column_left; ?>
+
+  <?php echo $column_right; ?>
 <div id="content" class="twelve columns">
 <div class="codespot-content main-column-content">
 <?php echo $content_top; ?>
