@@ -202,10 +202,14 @@ class ControllerProductCategory extends Controller {
             }
 
             $this->data['products'] = array();
-
+            
+            $manus_f = '';
+            if(isset($this->request->get['manu_f'])){
+                $manus_f = $this->request->get['manu_f'];
+            }
             $data = array(
                 'filter_category_id' => $category_id,
-                'filter_manufacturer_ids' => $this->request->get['manu_f'],
+                'filter_manufacturer_ids' => $manus_f,
                 'filter_filter' => $filter,
                 'sort' => $sort,
                 'order' => $order,

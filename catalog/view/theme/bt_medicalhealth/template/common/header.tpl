@@ -5,22 +5,22 @@
         <title><?php echo $title; ?></title>
         <base href="<?php echo $base; ?>" />
         <?php if ($description) { ?>
-        <meta name="description" content="<?php echo $description; ?>" />
+            <meta name="description" content="<?php echo $description; ?>" />
         <?php } ?>
         <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
         <?php if ($keywords) { ?>
-        <meta name="keywords" content="<?php echo $keywords; ?>" />
+            <meta name="keywords" content="<?php echo $keywords; ?>" />
         <?php } ?>
         <?php if ($icon) { ?>
-        <link href="<?php echo $icon; ?>" rel="icon" />
+            <link href="<?php echo $icon; ?>" rel="icon" />
         <?php } ?>
         <?php foreach ($links as $link) { ?>
-        <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
+            <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
         <?php } ?>
         <link rel="stylesheet" type="text/css" href="catalog/view/theme/bt_medicalhealth/stylesheet/stylesheet.css" />
         <link rel="stylesheet" type="text/css" href="catalog/view/theme/bt_medicalhealth/stylesheet/boss_add_cart.css" />
         <?php foreach ($styles as $style) { ?>
-        <link rel="<?php echo $style['rel']; ?>" type="text/css" href="<?php echo $style['href']; ?>" media="<?php echo $style['media']; ?>" />
+            <link rel="<?php echo $style['rel']; ?>" type="text/css" href="<?php echo $style['href']; ?>" media="<?php echo $style['media']; ?>" />
         <?php } ?>
         <link rel="stylesheet" type="text/css" href="catalog/view/theme/bt_medicalhealth/stylesheet/skeleton.css" />
         <link rel="stylesheet" type="text/css" href="catalog/view/theme/bt_medicalhealth/stylesheet/responsive.css" />
@@ -32,7 +32,7 @@
         <script type="text/javascript" src="catalog/view/javascript/bossthemes/bossthemes.js"></script>
         <script type="text/javascript" src="catalog/view/javascript/bossthemes/notify.js"></script>
         <?php foreach ($scripts as $script) { ?>
-        <script type="text/javascript" src="<?php echo $script; ?>"></script>
+            <script type="text/javascript" src="<?php echo $script; ?>"></script>
         <?php } ?>
 
         <!--[if IE 8]>
@@ -55,13 +55,13 @@
         </script>
         <![endif]-->
         <?php if ($stores) { ?>
-        <script type="text/javascript"><!--
-        $(document).ready(function() {
-            < ?php foreach ($stores as $store) { ? >
-                    $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></iframe>');
-                    < ?php } ? >
-            });
-                    //--></script>
+            <script type="text/javascript"><!--
+            $(document).ready(function() {
+                < ?php foreach ($stores as $store) { ? >
+                        $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></iframe>');
+                        < ?php } ? >
+                });
+                        //--></script>
         <?php } ?>
         <?php echo $google_analytics; ?>
     </head>
@@ -71,11 +71,11 @@
                 <div id="header" class="sixteen columns alpha omega">
                     <div class="boss_header_top">
                         <?php if ($logo) { ?>
-                        <div id="logo"><a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a></div>
+                            <div id="logo"><a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a></div>
                         <?php } ?>
                         <div id="mobile_search"></div>
                         <div id="custom_search_bar">
-                            <?php include_once("catalog/view/theme/bt_medicalhealth/template/common/_custom_search_bar.tpl"); ?>
+                    
                         </div>
                         <?php echo $cart; ?>
                         <?php echo $header_top; ?>
@@ -84,13 +84,13 @@
                         <div id="welcome">
 
                             <?php if (!$logged) { ?>
-                            <?php echo $text_welcome; ?>
+                                <?php echo $text_welcome; ?>
                             <?php } else { ?>
-                            <?php echo $text_logged; ?>
+                                <?php echo $text_logged; ?>
                             <?php } ?>
                         </div>
                         <div class="quick-access">                
-                            <?php //include_once("catalog/view/theme/bt_medicalhealth/template/common/_quick_search.tpl"); ?>
+                            <?php include_once("catalog/view/theme/bt_medicalhealth/template/common/_quick_search.tpl"); ?>
                             <?php echo $boss_login; ?>   		
                         </div>
                     </div>
@@ -99,14 +99,14 @@
                 <?php echo $header_bottom; ?>
                 <?php if ($error) { ?>
 
-                <div class="warning"><?php echo $error ?><img src="catalog/view/theme/default/image/close.png" alt="" class="close" /></div>
+                    <div class="warning"><?php echo $error ?><img src="catalog/view/theme/default/image/close.png" alt="" class="close" /></div>
 
                 <?php } ?>
                 <div id="notification" class="sixteen columns alpha omega"></div>
                 <div class="sixteen columns alpha omega">
 
                     <script type="text/javascript"><!--
-                                    //window.onload = boss_header_move_search;
+                    //window.onload = boss_header_move_search;
                                 //addLoadEvent(boss_header_move_search);
                                 $(document).ready(function() {
                         boss_header_move_search();
